@@ -6,6 +6,14 @@
 
 ###
 
+<h2 align="left">🚀Deploy</h2>
+
+###
+
+<a href="https://paolalemes.github.io/movieList/">Link</a>
+
+###
+
 <h2 align="left">🎬 Funcionalidades</h2>
 
 ###
@@ -41,7 +49,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://i.postimg.cc/bYCqj75X/Captura-de-tela-2024-08-16-221550.png"  />
+  <img height="500" src="https://i.postimg.cc/bYCqj75X/Captura-de-tela-2024-08-16-221550.png"  />
 </div>
 
 ###
