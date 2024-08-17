@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie List | Minha Lista</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  </head>
+  <body onload="loadList()">
+    <header>
+      <div class="title">
+        <lord-icon
+          src="https://cdn.lordicon.com/msrokfyb.json"
+          trigger="loop"
+          delay="1500"
+          stroke="bold"
+          colors="primary:#2a9d8f,secondary:#f4a261"
+          style="width: 50px; height: 50px"
+        >
+        </lord-icon>
+        <h1>MovieList</h1>
+      </div>
+      <nav class="nav">
+        <ul class="menu">
+          <li><a class="link" href="../index.html">Filmes</a></li>
+          <li><a class="link" href="./series.html">Séries</a></li>
+          <li><a class="link" href="./minhaLista.html">Minha Lista</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2 class="list-title">Filmes</h2>
+      <section id="movie-list-collection" class="collection"></section>
+
+      <h2 class="list-title">Séries</h2>
+      <section id="tv-list-collection" class="collection"></section>
+
+      <section id="modal" class="modal"></section>
+    </main>
+
+    <div id="alert" class="alert">
+      <lord-icon
+        src="https://cdn.lordicon.com/usownftb.json"
+        trigger="loop"
+        delay="1000"
+        stroke="bold"
+        colors="primary:#000,secondary:#c71f16"
+        style="width: 30px; height: 30px"
+      >
+      </lord-icon>
+      <span class="message">Erro ao carregar catálogo</span>
+    </div>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
